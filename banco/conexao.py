@@ -15,6 +15,7 @@ def criar_tabela():
         sql_animal = '''CREATE TABLE if not exists Animal (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             nome TEXT NOT NULL,
+            idade INTEGER NOT NULL,
             especie TEXT NOT NULL,
             raca TEXT NOT NULL);
             '''
