@@ -12,8 +12,8 @@ def criar_tabela():
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             nome TEXT NOT NULL,
             email TEXT NOT NULL,
-            senha TEXT NOT NULL)
-            '''
+            senha TEXT NOT NULL
+            )'''
 
         sql_animal = '''CREATE TABLE if not exists Animal (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -30,7 +30,7 @@ def criar_tabela():
             nome TEXT NOT NULL,
             dose INTEGER NOT NULL,
             data DATE NOT NULL,
-            animal_id INTEGER
+            animal_id INTEGER,
             FOREIGN KEY(animal_id) REFERENCES Animal(id)
             )'''
 
