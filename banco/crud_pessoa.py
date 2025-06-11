@@ -1,4 +1,4 @@
-from conexao import conectando
+from banco.conexao import conectando
 from moldes.Pessoa import Pessoa
  
 def inserir_pessoa(pessoa: Pessoa) -> int:

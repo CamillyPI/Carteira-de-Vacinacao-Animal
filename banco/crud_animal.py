@@ -1,4 +1,4 @@
-from conexao import conectando
+from banco.conexao import conectando
 from moldes.Animal import Animal
  
 def inserir_animal(animal: Animal) -> int:

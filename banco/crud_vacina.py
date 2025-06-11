@@ -1,4 +1,4 @@
-from conexao import conectando
+from banco.conexao import conectando
 from moldes.Vacina import Vacina
  
 def inserir_vacina(vacina: Vacina) -> int:
